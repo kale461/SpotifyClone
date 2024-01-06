@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d506e35873.js" crossorigin="anonymous"></script>
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li><a style="text-decoration: none;color: white;" href="https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M" target="_blank">favourite music</a></li>
+            <li><a style="text-decoration: none; color: white;" href="https://newsroom.spotify.com/company-info/" target="_blank">About Spotify</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <img class="ci" src="logo.png" alt="logo">
+        <div class="songList">
+            <div>
+                <div class="songItem">
+                   <img src="covers/1.jpg" alt="1"> 
+                   <span class="songName">Let me Love You</span>
+                   <span class="songlistplay"><span>05:34</span><i id="0" class="songItemPlay far fa-2x fa-play-circle"></i >
+                </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1"> 
+                    <span class="songName">Rabba - Heropanti</span>
+                    <span class="songlistplay"><span>05:34</span><i  id="1" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/3.jpg" alt="1"> 
+                    <span class="songName">Salamein Ishq</span>
+                    <span class="songlistplay"><span>05:34</span><i id="2"  class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/4.jpg" alt="1"> 
+                    <span class="songName" >Kaisa ishq</span>
+                    <span class="songlistplay"><span>05:34</span><i id="3"  class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/5.jpg" alt="1"> 
+                    <span class="songName">Sun raha hai na tu - Aashiqui-2</span>
+                    <span class="songlistplay"><span>05:34</span><i id="4" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/6.jpg" alt="1"> 
+                    <span class="songName">Kaise mujhe - Ghajani</span>
+                    <span class="songlistplay"><span>05:34</span><i id="5" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/7.jpg" alt="1"> 
+                    <span class="songName">Chaleyaan - Jawaan</span>
+                    <span class="songlistplay"><span>05:34</span><i id="6" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/8.jpg" alt="1"> 
+                    <span class="songName">O Mahi.. _ Dunki</span>
+                    <span class="songlistplay"><span>05:34</span><i id="7" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/9.jpg" alt="1"> 
+                    <span class="songName">Main to lut put - Dunki</span>
+                    <span class="songlistplay"><span>05:34</span><i id="8" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+                 <div class="songItem">
+                    <img src="covers/10.jpg" alt="1"> 
+                    <span class="songName">Jhoomein Jo Pathaan - Pathaan</span>
+                    <span class="songlistplay"><span>05:34</span><i id="9" class="songItemPlay far fa-2x fa-play-circle"></i >
+                 </span>
+                 </div>
+            </div>
+        </div>
+        <h1 style="margin-left: -1050px;margin-top: 450px; font-family: sans-serif;color: black;">Your favourite music is here</h1>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom"><br><br><br><br>
+        <marquee><h1 id="masterAudio"></h1></marquee><br>
+        <input type="range" id="MyprogressBar" min="0" value="0" max="100"><br><br>
+        <div class="icons">
+            <i  class="fas fa-3x fa-backward i1" id="previous"></i >
+            <i  class="far fa-3x fa-play-circle" id="masterPlay"></i >
+            <i  class="fas fa-3x fa-forward i3"  id="next"></i >
+        </div><br>
+        <div class="songInfo"><br>
+            <img src="playing.gif" id="gif" width="80px" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

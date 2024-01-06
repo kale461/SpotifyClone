@@ -1,0 +1,159 @@
+
+body{
+    background-color:springgreen;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+    
+    
+}
+nav ul{
+    background-color: black;
+    list-style: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.brand img{
+    width: 44px;
+    padding: 0 5px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    color: white;
+    min-height: 70vh;
+    display: flex; 
+    width: 80%;
+    margin: 23px auto; 
+    
+}
+
+.bottom{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    
+}
+#MyprogressBar{
+    width: 80vw;
+}
+.icons i{
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.songItem{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+
+    
+}
+.songItem:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 20px;
+}
+.songItem i{
+    cursor: pointer;
+    margin-right: 10px;
+
+    
+}
+.songItem i:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+.songlistplay span{
+    margin-left: 5px;
+    margin-top: 1px;
+
+}
+
+.icons .i1:hover{
+    color:red;
+}
+
+.icons .i3:hover{
+    color:green;
+}
+#masterPlay:hover{
+    color: yellow;
+}
+.bottom marquee{
+    color:white;
+    font-size: 0.9rem;
+    font-family: 'Lemon', serif;
+    font-weight: lighter;
+}
+.songInfo img{
+    opacity: 0;
+    transition: 1s ease-in;
+}
+.ci{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 130px;
+    background-color: black;
+    border-radius: 50%;
+}
+.ci:hover{
+    transition: 4s ease-in-out;
+    background-color:purple;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.songItem span{
+    margin-top: -10px;
+}
+.songList{
+    margin-left: 300px;
+}
+.songItem{
+    width: 400px;
+    margin-top: -1px;
+    margin: 4px;
+}
